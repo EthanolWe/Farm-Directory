@@ -19,13 +19,13 @@ export default function Home() {
       </nav>
       <main className="flex items-center h-screen">
         <div className="mx-auto">
-          <form action="" className="w-72">
+          <form action="" className="w-72 flex">
             <input
               className="border border-gray-300 p-2 rounded-md w-full" 
               type="text"
               placeholder="Search By Address or Location"
             />
-            <button className="bg-[rgb(107,168,79)] text-white px-4 py-2 rounded-md mt-2">Search</button>
+            <button className="bg-[rgb(107,168,79)] text-white px-4 py-2 rounded-md ml-2">Search</button>
           </form>
         </div>
       </main>
