@@ -1,15 +1,39 @@
 # Farm-Directory
 
-How To Run:
-cd code/
-npm i or npm install
-npm run dev
-Visit  http://localhost:3000 in browser
+## How to Run
 
-Dependecies:
-Must Have Nodejs version 18 or higher
-To update NodeJs visit https://nodejs.org/
+To set up and run the project, follow these steps:
 
-TA meetings are every Monday at 3pm over Zoom.
+1. Navigate to the "code" directory:
 
-Project Partner meetings are every Thursday at noon.
+   ```bash
+   cd code/
+   ```
+
+2. Install project dependencies using npm:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit [http://localhost:3000](http://localhost:3000).
+
+## Dependencies
+
+Ensure that you have Node.js installed with a version of 18 or higher. To update Node.js, visit [https://nodejs.org/](https://nodejs.org/).
+
+## Meetings Schedule
+
+- **TA Meetings:**
+  - Every Monday at 3pm
+  - Conducted over Zoom
+
+- **Project Partner Meetings:**
+  - Every Thursday at noon
+
