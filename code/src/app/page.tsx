@@ -1,5 +1,4 @@
-import LandingSearchForm from './components/landingSearchForm'
-
+import LandingSearchForm from '@/components/landingSearchForm'
 export default function Home() {
   return (
     <>
