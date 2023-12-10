@@ -7,12 +7,12 @@ export default async function Home({
 }: {
   searchParams: Record<string, string | string[] | undefined>
 }) {
-  const searchResult = searchParams['s']
+  const searchResult = searchParams['s'] as string
 
   //Now we can just await the call, this is helpful later cause while we await this
   //the component won't load and we can add a loading component so the user doesn't just
   //see a blank screen
-  const farms = await getAllFarmsData()
+  const farms = await getAllFarmsData(searchResult)
   //log farms to see the output stucture
 
   return (
